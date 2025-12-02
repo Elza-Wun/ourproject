@@ -82,5 +82,101 @@ body {
 }
 
 .btn:hover {
-  background: #1d23c6;
+  background: #3566cc;
+}
+
+.mob-app {
+  text-align: center; 
+}
+.main-text {
+  color: #323232;
+  text-align: center;
+  padding: 30px;
+}
+
+.small-text {
+  color: #999999;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 100px auto 0; 
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.icon-circle {
+  position: relative; 
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  border: 2px solid #4985ff;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 20px;
+  margin-top: -75px;
+}
+
+
+.icon-circle::before {
+  content: "";
+  position: absolute;
+  top: -8px; 
+  left: -8px;
+  width: 76px; 
+  height: 76px;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.icon-circle img {
+  width: 30px;
+  height: 30px;
+}
+
+.text h3 {
+  margin: 0 0 8px;
+}
+
+.text p {
+  margin: 0;
+}
+
+.fish {
+  color: #999999;
+}
+
+.cards-button {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  margin-top: 60px; 
+}
+
+.cards-button button {
+  padding: 10px 50px;
+  background-color: #4985ff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cards-button button:hover {
+  background-color: #3566cc;
 }
