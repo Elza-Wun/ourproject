@@ -380,3 +380,61 @@ body {
   margin-left: 290px;
   margin-right: 290px;
 }
+
+.four-img-section {
+  background-color: #f6f6f8;
+  padding: 60px 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+
+.four-section-top h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.four-section-top p {
+  font-size: 16px;
+  color: #999999;
+  max-width: 700px; 
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+
+.four-cards-row {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.four-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.four-section-button {
+  text-align: center; 
+  margin-top: 40px;
+}
+
+.four-section-button .btn {
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: #4985ff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.four-section-button .btn:hover {
+  background-color: #3566cc;
+}
