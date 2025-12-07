@@ -388,7 +388,6 @@ body {
   text-align: center;
 }
 
-
 .four-section-top h2 {
   font-size: 32px;
   font-weight: 700;
@@ -398,18 +397,17 @@ body {
 .four-section-top p {
   font-size: 16px;
   color: #999999;
-  max-width: 700px; 
+  max-width: 700px;
   margin: 0 auto 40px auto;
   line-height: 1.5;
   margin-bottom: 50px;
 }
 
-
 .four-cards-row {
   display: flex;
-  justify-content: center; 
-  flex-wrap: wrap; 
-  gap: 20px; 
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .four-card img {
@@ -420,7 +418,7 @@ body {
 }
 
 .four-section-button {
-  text-align: center; 
+  text-align: center;
   margin-top: 40px;
 }
 
@@ -437,4 +435,96 @@ body {
 
 .four-section-button .btn:hover {
   background-color: #3566cc;
+}
+
+.video {
+  position: relative;
+  height: 500px;
+  background-image: url("../images/peopletwo.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.video-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.video .video-content h2 {
+  font-size: 35px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.video .video-content p {
+  font-size: 15px;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+  width: 850px;
+  height: 380px;
+  border-radius: 8px;
+  position: relative;
+  top: 80px;
+}
+
+.play-btn {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 110px);
+  transform: translateX(-50%);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 12px 30px;
+  border-radius: 50px;
+
+  border: 1px solid #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.play-btn:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+.play-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #4985ff;
+  font-size: 20px;
+  padding-left: 3px;
+}
+
+.section-line-three {
+  height: 2px;
+  background-color: #e0e0e0;
+  margin-top: 200px;
+  margin-left: 180px;
+  margin-right: 180px;
 }
