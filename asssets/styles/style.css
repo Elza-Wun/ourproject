@@ -528,3 +528,65 @@ body {
   margin-left: 180px;
   margin-right: 180px;
 }
+
+.subscribe-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.subscribe-content {
+  max-width: 500px;
+  width: 100%;
+}
+
+.subscribe-content h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.subscribe-text {
+  font-size: 17px;
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.subscribe-form input[type="email"] {
+  color: #999999;
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.subscribe-form button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #4985ff;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.subscribe-form button:hover {
+  background-color: #3567c2;
+}
+
+.subscribe-note {
+  font-size: 14px;
+  color: #999999;
+}
